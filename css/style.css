@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding:0;
+}
+p{
+  text-align: right;
+  font-size: 2em;
+  color:white;}
+ body{
+  background-image: url('t-1.jpg');
+  background-size:auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:100%;
+}
+
+header{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+header .new{
+
+            color:white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:rgba(0,0,0,0.5);
+            padding: 2em;
+
+}
+header .logo{
+  width: 22%;
+  text-align: center;
+  font-size: 25px;
+}
+
+header .menu{
+  text-align: right;
+  word-spacing: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header new .menu a{
+  text-decoration: none;
+  color:lightgreen;
+}
+
+main{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+h3{
+  font-size: 3ex;
+  letter-spacing: 3px;
+  padding-bottom: 1em;
+  font-style: bold;
+  text-shadow: 1px 1px 1px green;
+  text-align: center 20%;
+}
+
+h1{
+  font-size: 3ex;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 3px;
+  padding-bottom: 1em;
+  padding-top: 5px;
+  word-spacing: 9px;
+}
+
+h2{
+  font-size:20px;
+  letter-spacing: 20px;
+  text-shadow: 1px 1px 1px blue;
+  padding-bottom: 12px;
+}
+
+ section a{
+  color:yellow;
+  text-decoration: none;
+  word-spacing: 4px;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+section .b1{
+  background-color: lightpink;
+  color:#000;
+  text-align: center;
+  cursor: auto;
+
+}
+section .b2{
+  background-color: lightgreen;
+  color:black;
+  style:bold;
+  text-align: center;
+}
+.b1:hover{
+  color:blue;
+  background-color: green;
+
+}
+.b2:hover{
+  color:black;
+  background-color: green;
+
+}
+.change_content:after{
+  content:'' ;
+  animation: changetext 10s infinite linear;
+  color:white;
+  text-shadow:2px 2px 2px black;
+  font-size: 2EM;
+  letter-spacing: normal;
+  width: auto;
+}
+@keyframes changetext {
+
+      0%{content:"KUTCH";}
+      20%{content:"DWARKA";}
+      35%{content:"SOMNATH";}
+      50%{content: "JUNAGADH";}
+      70%{content: "GANDHINAGAR"}
+      90%{content: "DANDI";}
+}
